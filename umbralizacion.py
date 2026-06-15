@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # =========================================================================
 # 1. PASO ANTERIOR: Generar la máscara de rocas con el Mega Closing
 # =========================================================================
-ruta_bordes_rocas = 'C:\\Users\\Emiliano\\Documents\\ESCOM\\SEMESTRE 4\\PDI\\Proyecto\\bordes_sin_frijoles.png'
+ruta_bordes_rocas = 'bordes_sin_frijoles.png'
 img_bordes = cv2.imread(ruta_bordes_rocas, cv2.IMREAD_GRAYSCALE)
 
 if img_bordes is None:
@@ -19,7 +19,7 @@ else:
     # =========================================================================
     # 2. NUEVO PASO: Cargar Imagen Original a Color y Aplicar AND
     # =========================================================================
-    ruta_original = 'C:\\Users\\Emiliano\\Documents\\ESCOM\\SEMESTRE 4\\PDI\\Proyecto\\beans.jpg'
+    ruta_original = 'img/valio.jpg'
     img_original = cv2.imread(ruta_original)
 
     if img_original is None:
@@ -74,3 +74,4 @@ else:
 
         plt.tight_layout()
         plt.show()
+

@@ -59,7 +59,7 @@ def marr_hildreth_fast(image_path, sigma=1.5, threshold=0.005):
     return img, log_img, bordes, bordes_procesados
 
 # --- Ejecución ---
-ruta_imagen = 'C:\\Users\\Emiliano\\Documents\\ESCOM\\SEMESTRE 4\\PDI\\Proyecto\\beans2.jpg'
+ruta_imagen = 'img/valio.jpg'
 
 # Ejecutamos el algoritmo
 original, log_resultado, bordes, bordes_limpios = marr_hildreth_fast(ruta_imagen, sigma=2.0, threshold=0.12)
@@ -100,3 +100,4 @@ if bordes is not None:
 
     plt.tight_layout()
     plt.show()
+
