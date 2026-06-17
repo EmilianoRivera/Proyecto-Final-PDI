@@ -51,3 +51,33 @@ Para ejecutar este proyecto necesitas tener instalado Python 3.x junto con las s
 
 ```bash
 pip install opencv-python numpy matplotlib
+```
+
+# Organización del Proyecto
+## Carpeta api
+La arquitectura del proyecto se dividió en Frontend y Backend. Siendo el Backend desarrollado en FastAPI. Dentro de esta carpeta se encuentran los endpoints para consumir el back. El proceso que se siguió fue creando un entorno virtual: 
+```bash
+python3 -m venv .venv
+```
+Para activar el entorno virtual si es git bash: 
+```bash
+source .venv/Scripts/activate
+```
+Si se usa Powershell:
+```bash
+.venv\Scripts\Activate.ps1
+```
+Para verificar que se usa el entorno adecuado ejecuta el siguiente comando: 
+```bash
+which python
+```
+Dentro del archivo requirements.txt vienen los paquetes necesarios para el Back, por tanto 
+
+
+
+
+
+
+
+
+
