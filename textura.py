@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 1. Cargar la imagen original a color y en escala de grises
-ruta_imagen = 'C:\\Users\\Emiliano\\Documents\\ESCOM\\SEMESTRE 4\\PDI\\Proyecto\\beans.jpg'
+ruta_imagen = 'img/beans.jpg'
 img_color = cv2.imread(ruta_imagen)
 img_gray = cv2.imread(ruta_imagen, cv2.IMREAD_GRAYSCALE)
 
