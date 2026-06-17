@@ -71,8 +71,10 @@ Para verificar que se usa el entorno adecuado ejecuta el siguiente comando:
 ```bash
 which python
 ```
-Dentro del archivo requirements.txt vienen los paquetes necesarios para el Back, por tanto 
-
+Dentro del archivo requirements.txt vienen los paquetes necesarios para el Back, por tanto ejecuta este comando: 
+```bash
+pip install -r requirements.txt
+```
 
 
 
