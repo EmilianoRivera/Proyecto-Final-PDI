@@ -1,13 +1,13 @@
-from fastapi import FastAPI
-
+from fastapi import Depends,FastAPI
+from .routers import bayo, peruano, negro
 app = FastAPI()
 
 
+#Agrego los router para cada tipo de frijol
+app.include_router(peruano.router)
+app.include_router(bayo.router)
+app.include_router(negro.router)
+
 @app.get("/")
-def read_root():
-    return {"Hello": "World"}
-
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: str | None = None):
-    return {"item_id": item_id, "q": q}
+async def root():
+    return {"message":"Hello Bigger App"}
