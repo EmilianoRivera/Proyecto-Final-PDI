@@ -75,7 +75,11 @@ Dentro del archivo requirements.txt vienen los paquetes necesarios para el Back,
 ```bash
 pip install -r requirements.txt
 ```
+Una vez hecho esto, corra el servicio con: 
 
+```bash
+fastapi dev
+```
 
 
 
